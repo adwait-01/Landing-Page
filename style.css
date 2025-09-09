@@ -134,6 +134,7 @@ p{
     font-style: italic;
     color: #1F2937;
     margin-top: 120px;
+    min-width: 490px;
 }
 
 .quote-end{
@@ -172,11 +173,13 @@ p{
 
 .left-content{
     color: white;
+    /* flex: 1; */
 }
 
 .call{
     font-weight: bold;
     font-size: 1.2em;
+    min-width: 440px;
 }
 
 .right-content{
@@ -190,6 +193,7 @@ p{
     border: 1px solid white;
     border-radius: 5px;
     padding: 5px 20px;
+    min-width: 90px;
 }
 
 .left-content-gap,
@@ -205,3 +209,5 @@ p{
     padding-bottom:40px;
     color: white;
 }
+
+
