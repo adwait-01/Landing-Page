@@ -146,4 +146,50 @@ p{
     flex: 1;
 }
 
+.container{
+    display: flex;
+}
 
+.left-gap,
+.right-gap{
+    flex: 1;
+}
+
+.content{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #3882F6;
+    display: flex;
+    flex: 3;
+    gap: 100px;
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+
+.left-content{
+    color: white;
+}
+
+.call{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.right-content{
+    display: flex;
+    align-items: center;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+
+.left-content-gap,
+.middle-content-gap,
+.right-content-gap{
+    flex: 1;
+}
